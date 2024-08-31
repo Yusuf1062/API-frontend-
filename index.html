@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My API Store</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/c2eb039181.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header>
+<h1>My API Store</h1>
+<button class="btn">Sign Up</button>
+</header>
+<main>
+<!--highlights section -->
+<section id="highlights-section">
+<h2>Apple Iphone 13 Pro Max</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolore! Repudiandae, saepe qui. Veritatis, quod tenetur! Tenetur inventore labore quas modi quasi. Vel eaque dolor odit fugiat quam exercitationem perferendis.</p>
+<div id="buy-now-button">
+<button class="btn">Buy Now</button>
+</div>
+</section>
+<!--cover image section-->
+<section id="cover-image-section">
+<img src="./assets/cover-image(1).png" alt="iphone image">
+</section>
+<!--search section-->
+<section id="search-section">
+<h2>Search Your Phone</h2>
+<div id="search-container">
+<div id="search-bar">
+ <i class=" fa fa-solid fa-magnifying-glass"></i>
+<input id="search-input-field" type="text" placeholder="Search your Phone">
+</div>
+<div id="search-button">
+<button onclick=" handlesearch()" class="btn">
+search
+</button>
+</div>
+
+
+</div>
+</section>
+<section id="loading-section">
+<!--this is the loading animation-->
+<div id="loader-animation" class="loader hidden"></div>
+</section>
+
+<!--card section-->
+<section id="card-section">
+<!--card-->
+<div class="card">
+<div class="card-image">
+<img src="./assets/iphone-img.png" alt="iphone.image">
+</div>
+<h3 class="card-title">Iphone 13 Pro Max</h3>
+<p class="card-describtion">There are many variations of passages of available, but the majority have suffered</p>
+<div class="card-price">
+<span>$</span>
+<span id="card-item-price">999</span>
+</div>
+<div class="card-button">
+<button class="btn">Show Details</button>
+</div>
+</div>
+<div class="card">
+<div class="card-image">
+<img src="./assets/iphone-img.png" alt="iphone.image">
+</div>
+<h3 class="card-title">Iphone 13 Pro Max</h3>
+<p class="card-describtion">There are many variations of passages of available, but the majority have suffered</p>
+<div class="card-price">
+<span>$</span>
+<span id="card-item-price">999</span>
+</div>
+<div class="card-button">
+<button class="btn">Show Details</button>
+</div>
+</div>
+<div class="card">
+<div class="card-image">
+<img src="./assets/iphone-img.png" alt="iphone.image">
+</div>
+<h3 class="card-title">Iphone 13 Pro Max</h3>
+<p class="card-describtion">There are many variations of passages of available, but the majority have suffered</p>
+<div class="card-price">
+<span>$</span>
+<span id="card-item-price">999</span>
+</div>
+<div class="card-button">
+<button class="btn">Show Details</button>
+</div>
+</div>
+
+</section>
+
+<section class="section-footer">
+<div class="container">
+<header class="header">
+<div class="header-left">
+<h1>My API Store</h1>
+<p>Learn How to use API Store</p>
+</div>
+<div class="social-icons">
+
+<a href="#"><i class="fa-brands fa-2x fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-2x fa-x-twitter" style="color:black"></i></a>
+<a href="#"><i class="fa-brands fa-2x fa-square-instagram" style="color:red"></i></a>
+<button class="premium-button">Join Premium</button>
+</div>
+</header>
+<hr>
+<footer>
+<section id="footer-nav">
+<div>
+<a href=""><span>Products</span></a>
+<a href=""><span>Browse Jobs</span></a>
+<a href=""><span>Remote Jobs</span></a>
+<a href=""><span>Company Jobs</span></a>
+<a href=""><span>Startup Jobs</span></a>
+</div>
+<div>
+<a href=""><span>Products</span></a>
+<a href=""><span>Browse Jobs</span></a>
+<a href=""><span>Remote Jobs</span></a>
+<a href=""><span>Company Jobs</span></a>
+<a href=""><span>Startup Jobs</span></a>
+</div>
+<div style="text-align: left">
+<a href=""><span>Products</span></a>
+<a href=""><span>Browse Jobs</span></a>
+<a href=""><span>Remote Jobs</span></a>
+<a href=""><span>Company Jobs</span></a>
+<a href=""><span>Startup Jobs</span></a>
+</div>
+<div style="text-align: right">
+<a href=""><span>Products</span></a>
+<a href=""><span>Browse Jobs</span></a>
+<a href=""><span>Remote Jobs</span></a>
+<a href=""><span>Company Jobs</span></a>
+<a href=""><span>Startup Jobs</span></a>
+</div>
+</section>
+</footer>
+</div>
+</section>
+
+
+</main>
+
+
+
+<script src="./js/store.js"></script>
+</body>

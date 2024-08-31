@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    }
+    
+    body{
+    background-color: rgb(220, 202, 202);
+    }
+    
+    header{
+    
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .btn{
+    background-color: rgb(20, 20, 192);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    }
+    
+    .btn:hover{
+    background-color: rgb(20, 20, 161);
+    cursor: pointer;
+    transition: 0.8s;
+    }
+    
+    #highlights-section{  
+    
+    width: 70%;
+    margin: 50px auto;
+    }
+    
+    #highlights-section > h2 {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(143, 81, 81);
+    margin-bottom: 25px;
+    }
+    
+    #highlights-section > p{
+    margin: 0 auto;
+    width: 50%;
+    color: rgb(102, 99, 99);
+    text-align: center;
+    margin-bottom: 25px;
+    }
+    
+    #buy-now-button{
+    display: flex;
+    justify-content: center;
+    }
+    
+    #cover-image-section{
+    
+    width: 70%;
+    margin: 50px auto;
+    }
+    
+    #cover-image-section img {
+    
+    width: 100%;
+    }
+    
+    #search-section{
+    
+    width: 70%;
+    margin: 50px auto;
+    }
+    
+    #search-section > h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    }
+    
+    #search-container{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(216, 189, 157);
+    display: flex;
+    }
+    
+    #search-bar{
+    width: 70%;
+    }
+    
+    #search-bar > input[type="text"]{
+    padding: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(216, 189, 157);
+    }
+    
+    #search-button{
+    width: 30%;
+    
+    display: flex;
+    justify-content: end;
+    }
+    
+    #card-section{
+    width: 80%;
+    
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 20px;
+    }
+    .card{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 20px;
+    }
+    
+    .card-image{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    }
+    
+    .card-image:hover{
+    background-color: rgb(215, 215, 185);
+    transition: 0.8s;
+    }
+    
+    .card-image img{
+    width: 100%;
+    height: 300px;
+    }
+    
+    .card-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+    .card-describtion{
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .card-price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    }
+    .card-button{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    }
+    
+    #loading-section{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .hidden{
+    display: none;
+    }
+    
+    .section-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #E4E0EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    
+    .container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #E4E0EC;
+    padding: 20px;
+    }
+    
+    .header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    }
+    
+    .header h1 {
+    margin: 0;
+    font-size: 45px;
+    margin-bottom: 10px;
+    }
+    
+    
+    
+    .header p {
+    color: #706f6f;
+    font-size: 18px;
+    font-weight: 600;
+    }
+    
+    .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+    }
+    
+    .social-icons icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    }
+    
+    .premium-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    #footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 50px;
+    }
+    
+    #footer-nav div a {
+    text-decoration: none;
+    color: black;
+    }
+    
+    #footer-nav div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    }
+    
+    
+    
+    /* HTML: <div class="loader"></div> */
+    .loader {
+    --s: 64px;
+    width: var(--s);
+    aspect-ratio: 2;
+    --_g: #000 90%,#0000;
+    background:
+    radial-gradient(farthest-side,var(--_g)) 0 50%/25% 50%,
+    radial-gradient(farthest-side at bottom,var(--_g)) 50% calc(50% - var(--s)/16)/25% 25%,
+    radial-gradient(farthest-side at top ,var(--_g)) 50% calc(50% + var(--s)/16)/25% 25%,
+    radial-gradient(farthest-side at bottom,var(--_g)) 100% calc(50% - var(--s)/16)/25% 25%,
+    radial-gradient(farthest-side at top ,var(--_g)) 100% calc(50% + var(--s)/16)/25% 25%;
+    background-repeat: no-repeat;
+    animation: l14 1s infinite;
+    }
+    @keyframes l14 {
+    25% {background-position:0 50%,50% 0,50% 100%,100% 0,100% 100%}
+    50% {background-position:100% 50%,0 0,0 100%,50% 0,50% 100%}
+    75%,
+    100% {background-position:100% 50%,0 calc(50% - var(--s)/16),0 calc(50% + var(--s)/16),50% calc(50% - var(--s)/16),50% calc(50% + var(--s)/16)}
+    }
